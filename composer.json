@@ -1,0 +1,21 @@
+{
+  "name": "allberts/simple-php-framework",
+  "description": "simple php framework",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Allberts",
+      "email": "albertasgrigoryan@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "source/",
+      "allberts\\core\\": "core/"
+    }
+  },
+  "require": {
+
+  }
+}
