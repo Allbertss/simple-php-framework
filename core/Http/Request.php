@@ -25,4 +25,9 @@ class Request
             $_SERVER,
         );
     }
+
+    public function getPathInformation(): string
+    {
+        return strtok($this->server['REQUEST_URI'], '?');
+    }
 }
